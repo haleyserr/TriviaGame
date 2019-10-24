@@ -1,0 +1,21 @@
+
+
+div {
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    z-index: 1;
+   position:fixed;
+   top: 25%;
+   background-color: rgb(127, 208, 255);
+
+}
+
+p {
+    padding-top: 25px;
+}
+
+button {
+
+    margin-right: 10px;
+}

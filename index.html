@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Houston Trivia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url("./assets/images/Background.png");
+            background-repeat: no-repeat;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="startScreen" class="text-center w-100 p-3 blockquote">
+
+        <h2>Howdy! Press Start to test your knowledge of Houston trivia. </h2>
+
+        <h2>Be Quick! You have 20 seconds to answer each question.</h2>
+        
+        <p></p>
+
+        <button id="startGame" class="btn-primary">
+            <h2> Start Game</h2>
+        </button>
+    </div>
+
+
+    <div id="question1" class="text-center w-100 p-3 blockquote">
+
+        <h2>Of the 36 total Buc-ee's in the state of Texas, how many are located in the greater Houston area?</h2>
+        <p></p>
+    
+        <button class="incorrect">
+            <h2>A: 32</h2>
+        </button>
+        <button class="correct">
+            <h2>B: 12</h2>
+        </button>
+        <button class="incorrect">
+            <h2>C: 7</h2>
+        </button>
+        <button class="incorrect">
+            <h2>D: 20</h2>
+        </button>
+
+    </div>
+    <div id="question2" class="text-center w-100 p-3 blockquote">
+
+        <h2>Which of the following is not the name of a Houston bayou?</h2>
+        <p></p>
+
+        <button class="incorrect">
+            <h2>A: Buffalo Bayou</h2>
+        </button>
+        <button class="incorrect">
+            <h2>B: White Oak Bayou</h2>
+        </button>
+        <button class="correct">
+            <h2>C: Brazos Bayou </h2>
+        </button>
+        <button class="incorrect">
+            <h2>D: Brays Bayou</h2>
+        </button>
+
+    </div>
+    <div id="question3" class="text-center w-100 p-3 blockquote">
+
+        <h2>Which of the below Houston malls hold the title of "Largest Mall in Texas"?</h2>
+        <p></p>
+
+        <button class="correct">
+            <h2>A: The Galleria</h2>
+        </button>
+        <button class="incorrect">
+            <h2>B: Katy Mills</h2>
+        </button>
+        <button class="incorrect">
+            <h2>C: West Oaks</h2>
+        </button>
+        <button class="incorrect">
+            <h2>D: Memorial City</h2>
+        </button>
+
+    </div>
+    <div id="question4" class="text-center w-100 p-3 blockquote">
+
+        <h2>Which of the following celebrities was NOT born in Texas?</h2>
+        <p></p>
+
+        <button class="incorrect">
+            <h2>A: Hillary Duff</h2>
+        </button>
+        <button class="incorrect">
+            <h2>B: Beyonce</h2>
+        </button>
+        <button class="incorrect">
+            <h2>C: Travis Scott</h2>
+        </button>
+        <button class="correct">
+            <h2>D: Cardi B</h2>
+        </button>
+
+    </div>
+
+    <div id="question5" class="text-center w-100 p-3 blockquote">
+
+        <h2>How many miles is the Downtown Tunnel?</h2>
+        <p></p>
+
+        <button class="incorrect">
+            <h2>A: 5</h2>
+        </button>
+        <button class="incorrect">
+            <h2>B: 2</h2>
+        </button>
+        <button class="correct">
+            <h2>C: 7</h2>
+        </button>
+        <button class="incorrect">
+            <h2>D: 1</h2>
+        </button>
+
+    </div>
+    <div id="question6" class="text-center w-100 p-3 blockquote">
+
+            <h2>Which of the following is Houston not known for?</h2>
+            <p></p>
+
+            <button class="incorrect">
+                <h2>A: Space Exploration</h2>
+            </button>
+            <button class="correct">
+                <h2>B: Zamboni Production</h2>
+            </button>
+            <button class="incorrect">
+                <h2>C: Energy Industry</h2>
+            </button>
+            <button class="incorrect">
+                <h2>D: Language Diversity</h2>
+            </button>
+
+    </div>
+
+    <div id="question7" class="text-center w-100 p-3 blockquote">
+
+        
+            <h2>Which phrase is a Houstonian least likely to hear at the Livestock Show and Rodeo?</h2>
+            <p></p>
+
+            <button class="incorrect">
+                <h2>A: "Did you see the size of that heffer!?"</h2>
+            </button>
+            <button class="incorrect">
+                <h2>B: "Hold my boot!"</h2>
+            </button>
+            <button class="correct">
+                <h2>C: "You want a pepsi?"</h2>
+            </button>
+            <button class="incorrect">
+                <h2>D: "It's time for the Mutton Bustin'!"</h2>
+            </button>
+
+    </div>
+
+    <div id="answerCorrect" class="text-center w-100 p-3 blockquote" >
+
+        <h2>Correct!</h2>
+
+    </div>
+
+    <div id="answerIncorrect" class="text-center w-100 p-3 blockquote">
+
+            <h2>Sorry, Wrong Answer!</h2>
+
+    </div>
+
+    <div id="finishScreen" class="text-center w-100 p-3 blockquote">
+        <p id="totalCorrect"></p>
+        <p id="totalWrong"></p>
+        <p></p>
+        <button id="restartGame"class="btn-danger">
+        
+            <h2>Restart Game</h2>
+        </button>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/javascript/app.js"></script>
+
+</body>
+
+</html>
